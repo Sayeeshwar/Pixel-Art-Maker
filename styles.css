@@ -9,3 +9,10 @@ table{
     padding: 1px;
     margin: 150px 5% 50px 45%;
 }
+h1{
+    font-weight: 100;
+    font-size: 50px;
+    font-family: Tahoma;
+    color: white;
+    text-align: center;   
+}
