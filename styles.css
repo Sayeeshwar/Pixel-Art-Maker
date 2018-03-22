@@ -1,0 +1,11 @@
+table,td,th{
+    border-color: brown;
+    border: 1px solid;    
+}
+td{
+    padding: 25px;
+}
+table{
+    padding: 1px;
+    margin: 150px 5% 50px 45%;
+}
