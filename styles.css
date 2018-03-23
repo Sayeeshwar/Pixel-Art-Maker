@@ -16,3 +16,10 @@ h1{
     color: white;
     text-align: center;   
 }
+p{
+    font-size: 25px;
+    font-family:arial;
+    font-weight: 400;
+    margin-left: 20px;
+    
+}
