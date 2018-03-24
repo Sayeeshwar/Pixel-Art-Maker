@@ -26,3 +26,15 @@ p{
 .form{
     display: inline-block;
 }
+input{
+    border-radius: 5%;
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 80px;
+    width:130px;
+    font-size:25px;
+    text-align:center;
+    color: white;
+    background-color: black;
+    border:1px white solid;
+}
