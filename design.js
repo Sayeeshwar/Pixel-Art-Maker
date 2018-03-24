@@ -27,7 +27,10 @@ $('#submit').click(function makeGrid(){
         }
         color=$('#color').val();
         var oldColor=color;
-        
+
+        $('td').click(function(evt){
+
+        })
 
     }
 });
