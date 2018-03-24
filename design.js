@@ -12,7 +12,11 @@ $('#submit').click(function makeGrid(){
         row = $('#row').val();
         column = $('#column').val();
         color=$('#color').val();
+        
+        $('body').append('<table id="grid"></table>');
+        $('table').remove();
+        $('body').append('<table id="grid"></table>');
 
-
+        
     }
 });
