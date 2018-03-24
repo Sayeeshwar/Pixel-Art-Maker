@@ -25,6 +25,8 @@ $('#submit').click(function makeGrid(){
                 ($('#row'+r)).append('<td id=cell'+r+c+'></td>');
             }
         }
+        color=$('#color').val();
+        var oldColor=color;
         
 
     }
