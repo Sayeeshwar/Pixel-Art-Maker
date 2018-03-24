@@ -29,6 +29,8 @@ $('#submit').click(function makeGrid(){
         var oldColor=color;
 
         $('td').click(function(evt){
+            color=$('#color').val();
+
 
         })
 
