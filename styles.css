@@ -38,3 +38,12 @@ input{
     background-color: black;
     border:1px white solid;
 }
+#color{
+    height: 80px;
+    width:130px;
+    border-radius: 15%;
+    border:none;
+    margin-top:10px;
+    vertical-align: bottom;
+}
+
