@@ -34,7 +34,11 @@ $('#submit').click(function makeGrid(){
             var cell=$(evt.target);
             var rgba= cell.css('backgroundColor');
 
-            
+            if(rgba==='rgb(0, 0, 0)' || rgba==='rgba(0, 0, 0, 0)' ||(oldColor!=color))
+            {
+                cell.css('backgroundColor',color);  
+                oldColor=color;
+            }
         })
 
     }
