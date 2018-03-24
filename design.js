@@ -46,6 +46,9 @@ $('#submit').click(function makeGrid(){
             }
 
         })
+        curCol=column;
+        curRow=row;
+
 
     }
 });
