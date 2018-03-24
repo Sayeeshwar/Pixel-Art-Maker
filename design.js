@@ -39,6 +39,12 @@ $('#submit').click(function makeGrid(){
                 cell.css('backgroundColor',color);  
                 oldColor=color;
             }
+            else if(oldColor===color){
+                cell.css('backgroundColor','#000000');
+                oldColor=color;
+
+            }
+
         })
 
     }
