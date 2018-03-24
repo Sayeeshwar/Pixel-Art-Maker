@@ -31,7 +31,10 @@ $('#submit').click(function makeGrid(){
         $('td').click(function(evt){
             color=$('#color').val();
 
+            var cell=$(evt.target);
+            var rgba= cell.css('backgroundColor');
 
+            
         })
 
     }
