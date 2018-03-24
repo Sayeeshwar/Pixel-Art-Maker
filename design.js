@@ -7,8 +7,12 @@ $('#submit').click(function makeGrid(){
     set++;
     row = $('#row').val();
     column = $('#column').val();
-     if(((curCol!==column)||(curRow!==row))||(set===1))
+    if(((curCol!==column)||(curRow!==row))||(set===1))
     {
-        
+        row = $('#row').val();
+        column = $('#column').val();
+        color=$('#color').val();
+
+
     }
 });
