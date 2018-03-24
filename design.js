@@ -12,11 +12,20 @@ $('#submit').click(function makeGrid(){
         row = $('#row').val();
         column = $('#column').val();
         color=$('#color').val();
-        
+
         $('body').append('<table id="grid"></table>');
         $('table').remove();
         $('body').append('<table id="grid"></table>');
 
+        for(var r=0;r<row;r++)
+        {
+            $('table').append('<tr id=row'+r+'></tr>');
+            for(c=0;c<column;c++)
+            {
+                ($('#row'+r)).append('<td id=cell'+r+c+'></td>');
+            }
+        }
         
+
     }
 });
